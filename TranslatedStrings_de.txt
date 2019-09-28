@@ -1,0 +1,6 @@
+$$$/LrAssetLink/MenuItemIMovieExport=Export für iMovie
+$$$/LrAssetLink/MenuItemDeduplicateIMovie=Entferne Duplikate aus der iMovie Bibliothek
+$$$/LrAssetLink/MessageTitleNoVideoSelected=Kein Video ausgewählt
+$$$/LrAssetLink/DialogTitleChooseExportPath=Verzeichnis auswählen
+$$$/LrAssetLink/DialogTitleChooseIMovieLibrary=iMovie Bibliothek auswählen
+
