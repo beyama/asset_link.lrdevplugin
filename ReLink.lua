@@ -9,9 +9,9 @@ local function deduplicateIMovieDialog()
     LrFunctionContext.callWithContext( "deduplicateIMovieDialog", function( context )
 
         local paths = LrDialogs.runOpenPanel({
-            title = LOC "$$$/LrAssetLink/DialogTitleChooseIMovieLibrary=Choose iMovie library",
+            title = LOC "$$$/LrAssetLink/DialogTitleChooseReLinkFolder=Choose iMovie library or asset folder",
             canChooseFiles = true,
-            canChooseDirectories = false,
+            canChooseDirectories = true,
             allowsMultipleSelection = false,
             fileTypes = 'imovielibrary'
         })
@@ -19,7 +19,7 @@ local function deduplicateIMovieDialog()
         if not paths then return end
 
         LrTasks.startAsyncTask(function( context )
-            common.link(paths[1], 'f')
+            common.link(paths[1], 'l')
         end, "linkAssets")
 
     end)

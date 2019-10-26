@@ -1,6 +1,9 @@
 $$$/LrAssetLink/MenuItemIMovieExport=Export für iMovie
 $$$/LrAssetLink/MenuItemDeduplicateIMovie=Entferne Duplikate aus der iMovie Bibliothek
+$$$/LrAssetLink/MenuItemFCExport=Export für FinalCut Pro
+$$$/LrAssetLink/MenuItemReLink=Re-link Videos mit Katalog
 $$$/LrAssetLink/MessageTitleNoVideoSelected=Kein Video ausgewählt
 $$$/LrAssetLink/DialogTitleChooseExportPath=Verzeichnis auswählen
 $$$/LrAssetLink/DialogTitleChooseIMovieLibrary=iMovie Bibliothek auswählen
+$$$/LrAssetLink/DialogTitleChooseReLinkFolder=iMovie Bibliothek oder Asset Ordner auswählen
 

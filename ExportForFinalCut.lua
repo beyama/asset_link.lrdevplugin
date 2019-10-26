@@ -6,7 +6,7 @@ local function exportDialog()
     LrFunctionContext.callWithContext( "exportForIMovieDialog", function( context )
 
         LrTasks.startAsyncTask(function( context )
-            common.export(common.copyAssets)
+            common.export(common.linkAssets)
         end, "copyAssets")
 
     end)

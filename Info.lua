@@ -15,6 +15,14 @@ return {
         {
             title = LOC "$$$/LrAssetLink/MenuItemDeduplicateIMovie=Deduplicate iMovie assets",
             file = "DeduplicateIMovie.lua",
+        },
+        {
+            title = LOC "$$$/LrAssetLink/MenuItemFCExport=Export for FinalCut Pro",
+            file = "ExportForFinalCut.lua",
+        },
+        {
+            title = LOC "$$$/LrAssetLink/MenuItemReLink=Re-link assets with catalog",
+            file = "ReLink.lua",
         }
 
     }
